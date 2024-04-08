@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" starts flash Web App. """
 from flask import Flask, render_template, url_for
 from models import storage
 import uuid
